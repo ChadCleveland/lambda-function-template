@@ -1,0 +1,20 @@
+@charset "utf-8";
+/* Cascading Style Sheet */
+/* Lightbulb Web Services | Lightbulb.Services */
+/* Author: Chad Cleveland. Lightbulb Web Services */
+/* © Copyright 2021 Lightbulb Web Services. All Rights Reserved. */
+/* CSS background image file */
+
+/*
+    Last modified: 02/25/2021 14:02:18
+*/
+
+.loading {
+    background-image: url(/img/load.gif);
+    width: 30px;
+    height: 30px;
+    margin: 15px;
+    background-size: 100%;
+    position: absolute;
+    left: calc(50% - 30px);
+}
