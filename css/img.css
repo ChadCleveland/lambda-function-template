@@ -9,12 +9,43 @@
     Last modified: 02/25/2021 14:02:18
 */
 
-.loading {
-    background-image: url(/img/load.gif);
-    width: 30px;
-    height: 30px;
-    margin: 15px;
-    background-size: 100%;
-    position: absolute;
-    left: calc(50% - 30px);
+.btn-refresh {
+    background-image: URL(https://lib.lightbulb.services/img/lws-ico-1.png);
+    background-position: right;
+    background-size: 300%;
+}
+
+.btn-expand {
+    background-image: URL(https://lib.lightbulb.services/img/lws-ico-1.png);
+    background-position: bottom right;
+    transform: rotate(90deg);
+    background-size: 300%;
+}
+
+.btn-back {
+    background-image: URL(https://lib.lightbulb.services/img/lws-ico-4.png);
+    background-position-x: 7px;
+    background-position-y: -71px;
+    background-size: 300%;
+    background-repeat: no-repeat;
+}
+
+.btn-new-tab {
+    background-image: URL(https://lib.lightbulb.services/img/lws-ico-4.png);
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: 300%;
+}
+
+.btn-info {
+    background-image: URL(https://lib.lightbulb.services/img/lws-ico-1.png);
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: 300%;
+}
+.btn-go {
+    background-image: URL(https://lib.lightbulb.services/img/lws-ico-1.png);
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    background-size: 300%;
 }
