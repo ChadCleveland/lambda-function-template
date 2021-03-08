@@ -6,7 +6,7 @@
 /* CSS background image file */
 
 /*
-    Last modified: 02/25/2021 14:02:18
+    Last modified: 03/08/2021 12:45:58
 */
 
 .btn-refresh {
@@ -36,7 +36,6 @@
     background-repeat: no-repeat;
     background-size: 300%;
 }
-
 .btn-info {
     background-image: URL(https://lib.lightbulb.services/img/lws-ico-1.png);
     background-position: left top;
