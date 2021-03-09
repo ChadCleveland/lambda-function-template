@@ -1,11 +1,4 @@
 # lambda-function-template
-Basic lambda function template.
-
-Structured for development.
- + Rename /d/mon-day/app/ to the day and month you're working on the project.
- + + M-D format. i.e. 11-4
- + Work and test in /d/11-4/app.
-
 When ready for production
  + Rename /p/mon-yr/app/ to the month and year of the production deployment.
  + + M-YY format. i.e. 3-21
