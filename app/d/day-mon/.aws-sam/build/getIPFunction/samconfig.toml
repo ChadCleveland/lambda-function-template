@@ -2,8 +2,8 @@ version = 0.1
 [default]
 [default.deploy]
 [default.deploy.parameters]
-stack_name = "yes8"
+stack_name = "template-lambda-funciton"
 s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-lbzzaosswamq"
-s3_prefix = "yes8"
+s3_prefix = "template-lambda-funciton"
 region = "us-west-2"
 capabilities = "CAPABILITY_IAM"
