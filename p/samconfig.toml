@@ -1,0 +1,9 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "template-lambda-function"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-lbzzaosswamq"
+s3_prefix = "template-lambda-function"
+region = "us-west-2"
+capabilities = "CAPABILITY_IAM"

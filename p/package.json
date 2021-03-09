@@ -1,0 +1,7 @@
+{
+  "name": "template-lambda-function",
+  "description": "Simple serverless application. Get IP address, visitor country, or anonymous device info.",
+  "version": "1.0.0",
+  "repository": "https://github.com/LightbulbServices/lambda-function-template",
+  "author": "Lightbulb Web Services"
+}
