@@ -3,7 +3,7 @@
 // Author: Chad Cleveland | Lightbulb Web Services | Lightbulb.Services
 // Copyright: © Lightbulb Web Services 2021.
 
-// Last modified: 03/08/2021 23:16:11
+// Last modified: 03/09/2021 10:06:26
 
 exports.getCountry = function(event) {
     let c = '';
@@ -16,6 +16,7 @@ exports.getCountry = function(event) {
     // console.log('GET COUNTRY:', c, event['headers']);
     return c;
 }
+
 exports.getIP = function (event) {
     let bodyStr = '';
     try {
@@ -27,6 +28,7 @@ exports.getIP = function (event) {
         // console.log('GET IP: ', bodyStr, event['headers']);
         return bodyStr
 }
+
 exports.getDeviceInfo = function (event) {
     let bodyStr = '';
     try {
@@ -48,7 +50,6 @@ exports.getDeviceInfo = function (event) {
     }
     return bodyStr
 }
-
 
 exports.prepareResponse = function(event, bStr) {
     // console.log('B STR:', bStr);
